@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "bios": "F6",
+      "me": "11.6.20.1221",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}

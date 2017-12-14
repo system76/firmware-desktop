@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "bios": "F4",
+      "me": "11.0.0.1168",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}

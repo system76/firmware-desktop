@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "bios": "F3a",
+      "me": "11.10.0.1300",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}

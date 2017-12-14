@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "bios": "F7a Z5",
+      "me": "11.10.0.1287",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}

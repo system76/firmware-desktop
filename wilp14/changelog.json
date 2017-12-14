@@ -1,0 +1,18 @@
+{
+  "versions": [
+    {
+      "bios": "F5 Z5",
+      "me": "11.8.50.3399",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Update ME"
+    },
+    {
+      "bios": "F4 Z5",
+      "me": "11.7.4.3314",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "versions": [
+    {
+      "bios": "1802",
+      "me": "11.0.10.1002",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Original firmware"
+    }
+  ]
+}
