@@ -21,7 +21,7 @@
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
-14. Now that the drive is ready, download the `firmware.rom` file from here: [leow8 firmware](firmware.rom). Click `Download` to begin the download of the firmware.
+14. Now that the drive is ready, download the `firmware.rom` file from here: [leow9-w firmware](firmware.rom). Click `Download` to begin the download of the firmware.
 15. Copy over the firmware file to the flash drive.
 
  
