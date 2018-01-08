@@ -1,8 +1,8 @@
 {
   "versions": [
     {
-      "bios": "F4",
-      "me": "11.0.0.1168",
+      "bios": "F22b Z5",
+      "me": "11.8.50.3425",
       "me_hap": false,
       "me_cr": false,
       "description": "Original firmware"
