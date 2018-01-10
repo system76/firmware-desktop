@@ -31,7 +31,7 @@
 3. Power back on the machine. As the machine is powering back up, hold down the 'F7' key.
 4. After seeinsg the System76 logo, you should be brought to a Blue and grey screen with the title containing the words "Intel NUC Board". This should look somewhat similar to the following screenshot.
 
-![BIOS Update page](images/1.jpg)
+![BIOS Update page](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer2/images/1.jpg)
 
 **Note: These images are for reference since these are screens you normally do not come across. These are not exact screenshots. The names of your drives will named differently according to the make and model of your drive.**
 
@@ -43,7 +43,7 @@
 10. Your machine will now reboot, you will see the System76 logo once again.
 10. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
 
-![Firmware update](images/3.jpg)
+![Firmware update](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer2/images/2.jpg)
 
 
 11. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
