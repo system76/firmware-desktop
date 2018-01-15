@@ -35,21 +35,21 @@
 
 5. The BIOS should look similar to the following screenshot. Select the "Advanced Mode" at the bottom right of the screen (or press `F7`).
 
-![ASUS UEFI BIOS Utility - EZ Mode](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/1.jpg)
+![ASUS UEFI BIOS Utility - EZ Mode](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/1.png)
 
 6. Towards the top of the screen, select the "Tool" tab.
 
-![ASUS UEFI BIOS Utility - Tool Tab](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/2.jpg)
+![ASUS UEFI BIOS Utility - Tool Tab](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/2.png)
 
 7. Select the top option, "ASUS EZ Flash 3 Utility".
 
 8. Now you will be prompted to choose to update via Storage device or via the Internet. Select "via Storage Device" and press "Next".
 
-![ASUS UEFI BIOS Utility - Update method](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/3.jpg)
+![ASUS UEFI BIOS Utility - Update method](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/3.png)
 
 9. You will now be prompted with a file manager. Select the correct Drive and move through the files and folders on the flash drive (using arrow keys and the "Enter" key) to select the firmware.CAP file.
 
-![ASUS UEFI BIOS Utility - Select Firmware](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/4.jpg)
+![ASUS UEFI BIOS Utility - Select Firmware](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/4.png)
 
 10. You will then be prompted twice to confirm that the file you selected will be read and used to update the firmware/BIOS.
 
