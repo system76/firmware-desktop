@@ -17,7 +17,7 @@
 7. Confirm this execution by selecting "Format".
 8. Once this process is complete, you should see the volume listed as "Free Space".
 9. Select the "+" button to create a partition for this drive.
-10. Once again the default settings here should be sufficient. However, you do need to add a name for the flash drive. In this example I named the drive "firmare" so I know what is on the drive when I plug it in. You can name the drive whatever you would like.
+10. Once again the default settings here should be sufficient. However, if you would like, you can add a name for the partition. In this example I named the drive "firmware" so I know what is on the drive when I plug it in.
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
