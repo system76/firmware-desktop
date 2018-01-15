@@ -21,7 +21,7 @@
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
-14. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](firmware.bio). Click `Download` to begin the download of the firmware.
+14. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download of the firmware.
 15. Copy over the firmware file to the flash drive.
 
 
