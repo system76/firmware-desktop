@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "bios": "3405",
+      "me": "11.6.10.1196",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Update ME"
+    },
+    {
       "bios": "1802",
       "me": "11.0.10.1002",
       "me_hap": false,
