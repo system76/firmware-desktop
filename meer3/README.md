@@ -5,7 +5,7 @@
 ### Downloading and preparing new firmware
 1. In order to update your firmware, you will need a flash drive. 
 2. You will want to put the firmware.bio file on a MBR formatted FAT partitioned drive.
-3. If you are familiar with the process for doing so, you can skip ahead to the [_Writing new firmware_](#writing-new-firmware) section.
+3. If you are familiar with the process for doing so, you can skip ahead to the _Writing new firmware_ section.
 4. The following are instructions for properly formatting your flash drive and putting the new firmware on the drive.
 
 ### Preparing Flash Drive
