@@ -4,7 +4,7 @@
 
 ### Downloading and preparing new firmware
 1. In order to update your firmware, you will need a flash drive.
-2. You will want to put the firmware.rom file on a MBR formatted FAT partitioned drive.
+2. You will want to put the firmware.cap file on a MBR formatted FAT partitioned drive.
 3. If you are familiar with the process for doing so, you can skip ahead to the _Writing new firmware_ section.
 4. The following are instructions for properly formatting your flash drive and putting the new firmware on the drive.
 
@@ -21,7 +21,7 @@
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
-14. Now that the drive is ready, download the `firmware.rom` file from here: [sabl6 firmware](https://github.com/system76/firmware-desktop/blob/master/sabl6/firmware.rom). Click `Download` to begin the download of the firmware.
+14. Now that the drive is ready, download the `firmware.cap` file from here: [sabl6 firmware](https://github.com/system76/firmware-desktop/blob/master/sabl6/firmware.cap). Click `Download` to begin the download of the firmware.
 15. Copy over the firmware file to the flash drive.
 
 
@@ -31,10 +31,9 @@
 3. Power back on the machine. As the machine is powering back up, hold down the 'Del' key.
 4. After seeing the System76 logo, you should be brought to the ASUS BIOS.
 
-**NOTE: Some information in the screenshots below may differ from that of your actual machine.**
-
 5. The BIOS should look similar to the following screenshot. Select the "Advanced Mode" at the bottom right of the screen (or press `F7`).
 
+**NOTE: Some information in the screenshots below may differ from that of your actual machine.**
 ![ASUS UEFI BIOS Utility - EZ Mode](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/1.png)
 
 6. Towards the top of the screen, select the "Tool" tab.
@@ -47,7 +46,7 @@
 
 ![ASUS UEFI BIOS Utility - Update method](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/3.png)
 
-9. You will now be prompted with a file manager. Select the correct Drive and move through the files and folders on the flash drive (using arrow keys and the "Enter" key) to select the firmware.CAP file.
+9. You will now be prompted with a file manager. Select the correct Drive and move through the files and folders on the flash drive (using arrow keys and the "Enter" key) to select the `firmware.cap` file.
 
 ![ASUS UEFI BIOS Utility - Select Firmware](https://raw.githubusercontent.com/system76/firmware-desktop/master/sabl6/images/4.png)
 
