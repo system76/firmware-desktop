@@ -1,28 +1,30 @@
 # To update your firmware:
 
-1. Backup your data. There is a small possibility that updating your firmware can cause data loss.
+1. Backup all data. There is a small possibility that updating firmware can cause data loss.
 
 ### Downloading and preparing new firmware
-1. In order to update your firmware, you will need a flash drive. 
-2. You will want to put the firmware.bio file on a MBR formatted FAT partitioned drive.
-3. If you are familiar with the process for doing so, you can skip ahead to the _Writing new firmware_ section.
-4. The following are instructions for properly formatting your flash drive and putting the new firmware on the drive.
+1. Updating firmware requires a flash drive at least 2 GB in size.
+2. The firmware.bio file needs placed on a thumbdrive with a MBR FAT32 formatting
+3. Feel free to skip ahead to the later sections if this is familiar ground.
+4. To properly format a flash drive, follow the next instructions:
 
 ### Preparing Flash Drive
-1. Plug in your flash drive.
+1. Plug in the flash drive.
 2. Open the "Disks" program.
-4. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the drive that represents your drive.
-5. Select the menu button in the top right corner. Select "Format Disk".
-6. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
-7. Confirm this execution by selecting "Format".
-8. Once this process is complete, you should see the volume listed as "Free Space".
-9. Select the "+" button to create a partition for this drive.
-10. Once again the default settings here should be sufficient. However, if you would like, you can add a name for the partition. In this example I named the drive "firmware" so I know what is on the drive when I plug it in.
-11. Select "Create" when you are done supplying a name for the drive.
-12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
-13. Now mount the drive by selecting the "Play" button.
-14. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download of the firmware.
-15. Copy over the firmware file to the flash drive.
+3. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the flash drive.
+4. Select the menu button in the top right corner. Select "Format Disk".
+5. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
+6. Confirm the execution by selecting "Format".
+7. Once this process is complete, the volume should be listed as "Free Space".
+8. Select the "+" button to create a partition for this drive.
+9. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
+10. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
+11. Mount the drive by selecting the "Play" button.
+12. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download of the firmware.
+
+13. The sha512sum checksum for this download is `d064d89ca6f8aef3a10d10fcdf538d52d200b7e42551b0b8edc1a0ee46f142d1438ecce449ff0edbec880c8afcf50720a78a64aa34bea101485cbaf3bf09a000`. Confirm that the download has the same checksum by executing the following command in the firmware.bio directory. `sha512sum -b firmware.bio`
+
+14. Copy over the firmware file to the flash drive.
 
 
 ### Writing new firmware
