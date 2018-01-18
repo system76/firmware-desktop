@@ -21,7 +21,10 @@
 11. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
 13. Mount the drive by selecting the "Play" button.
 14. With the drive is ready, download the `firmware.rom` file from here: [wilp12 firmware](https://github.com/system76/firmware-desktop/blob/master/wilp12/firmware.rom). Click `Download` to begin the download.
-15. Copy over the firmware file to the flash drive.
+
+15. The sha512sum checksum for this download is `redacted`. Confirm that the download has the same checksum by executing the following command in the firmware.rom directory. `sha512sum -b firmware.rom`
+
+16. Copy over the firmware file to the flash drive.
 
 ### Writing new firmware
 1. After saving and backing up the machine, make sure the flash drive with the updated firmware is plugged into the computer.

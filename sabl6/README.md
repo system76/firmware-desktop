@@ -59,5 +59,7 @@
 
 13. Once the system reboots, an American Megatrends screen will appear. Press F1. You will be brought back into the BIOS. Press F10 to save and exit the BIOS. The computer will restart once again this time into your operating system. The firmware updating process is now complete.
 
+14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `3405`. The ME version is `11.6.10.1196`.
+
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, you may be brought to a yellow and black command line prompt titled: "EFI Shell version x". If this is the case, press the `ctrl`-`alt`-`del` keys all at once and your system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.

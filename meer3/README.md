@@ -43,13 +43,15 @@
 8. Select the `firmware.bio` file and hit "Enter" on your keyboard.
 9. A blue pop-up will appear. You will then be asked "Are you sure you wish to udate the BIOS with "firmware.bio?". Hit "Enter" once again to confirm.
 10. Your machine will now reboot, you will see the System76 logo once again.
-10. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
+11. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
 
 ![Firmware update](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer3/images/2.jpg)
 
 
-11. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
-12. Your Meerkat should now reboot back into your operating system.
+12. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
+13. The machine should now reboot back into the operating system.
+
+14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `BNKBL357.86A.0057.2017.1122.1550`. 
 
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, you may be brought to a yellow and black command line prompt titled: "EFI Shell version x". If this is the case, press the `ctrl`-`alt`-`del` keys all at once and your system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.

@@ -20,7 +20,7 @@
 9. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
 10. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
 11. Mount the drive by selecting the "Play" button.
-12. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download of the firmware.
+12. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download.
 
 13. The sha512sum checksum for this download is `d064d89ca6f8aef3a10d10fcdf538d52d200b7e42551b0b8edc1a0ee46f142d1438ecce449ff0edbec880c8afcf50720a78a64aa34bea101485cbaf3bf09a000`. Confirm that the download has the same checksum by executing the following command in the firmware.bio directory. `sha512sum -b firmware.bio`
 
@@ -43,13 +43,15 @@
 8. Select the `firmware.bio` file and hit "Enter" on your keyboard.
 9. A blue pop-up will appear. You will then be asked "Are you sure you wish to udate the BIOS with "firmware.bio?". Hit "Enter" once again to confirm.
 10. Your machine will now reboot, you will see the System76 logo once again.
-10. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
+11. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
 
 ![Firmware update](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer2/images/2.jpg)
 
 
-11. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
-12. Your Meerkat should now reboot back into your operating system.
+12. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
+13. The machine should now reboot back into the operating system.
+
+14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `SYSKLi35.86A.0063.2017.1115.1550`. 
 
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, you may be brought to a yellow and black command line prompt titled: "EFI Shell version x". If this is the case, press the `ctrl`-`alt`-`del` keys all at once and your system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.
