@@ -22,7 +22,12 @@
 13. Mount the drive by selecting the "Play" button.
 14. With the drive is ready, download the `firmware.cap` file from here: [ratp5 firmware](https://github.com/system76/firmware-desktop/blob/master/ratp5/firmware.cap). Click `Download` to begin the download.
 
-15. The sha512sum checksum for this download is `231e8195aa0a48037d743f7839dd2b4aa05c8e82af264e8616cd3ffc933bc34052d3ea52c87162326c8235806603ecb7c985b3cbf6fa7c60f2bfab625f04cf62`. Confirm that the download has the same checksum by executing the following command in the firmware.cap directory. `sha512sum -b firmware.cap`
+15. The sha512sum checksum for this download is 
+```231e8195aa0a48037d743f7839dd2b4aa05c8e82af264e8616cd3ffc933bc34052d3ea52c87162326c8235806603ecb7c985b3cbf6fa7c60f2bfab625f04cf62```.
+
+    Confirm that the download has the same checksum by executing the following command in the firmware.cap directory:
+
+    `sha512sum -b firmware.cap`
 
 16. Copy over the firmware file to the flash drive.
 
