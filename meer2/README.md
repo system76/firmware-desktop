@@ -25,9 +25,15 @@
 13. The sha512sum checksum for this download is 
 ```d064d89ca6f8aef3a10d10fcdf538d52d200b7e42551b0b8edc1a0ee46f142d1438ecce449ff0edbec880c8afcf50720a78a64aa34bea101485cbaf3bf09a000```. 
 
+<<<<<<< HEAD
 Confirm that the download has the same checksum by executing the following command in the firmware.bio directory:
 
  `sha512sum -b firmware.bio`
+=======
+    Confirm that the download has the same checksum by executing the following command in the firmware.bio directory:
+
+    `sha512sum -b firmware.bio`
+>>>>>>> readme-fix
 
 14. Copy over the firmware file to the flash drive.
 
