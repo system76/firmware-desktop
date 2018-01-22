@@ -1,3 +1,5 @@
+# This update is not yet available. You will receive an email when your model's firmware is ready to update.
+
 # To update your firmware:
 
 1. Backup your data. There is a small possibility that updating your firmware can cause data loss.
