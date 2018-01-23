@@ -6,7 +6,7 @@
 
 ### Downloading and preparing new firmware
 1. Updating firmware requires a flash drive at least 2 GB in size.
-2. The firmware.cap file needs placed on a thumbdrive with MBR FAT32 formatting.
+2. The firmware.rom file needs placed on a thumbdrive with MBR FAT32 formatting.
 3. Feel free to skip ahead to the later sections if this is familiar ground.
 4. To properly format a flash drive, follow the next instructions:
 
@@ -22,14 +22,14 @@
 10. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
 11. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
 13. Mount the drive by selecting the "Play" button.
-14. With the drive is ready, download the `firmware.cap` file from here: [ratp5 firmware](https://github.com/system76/firmware-desktop/blob/master/ratp5/firmware.cap). Click `Download` to begin the download.
+14. With the drive is ready, download the `firmware.rom` file from here: [ratp5 firmware](https://github.com/system76/firmware-desktop/blob/master/ratp5/firmware.rom). Click `Download` to begin the download.
 
 15. The sha512sum checksum for this download is 
-```231e8195aa0a48037d743f7839dd2b4aa05c8e82af264e8616cd3ffc933bc34052d3ea52c87162326c8235806603ecb7c985b3cbf6fa7c60f2bfab625f04cf62```.
+```0f293a353725ba1578a6d989289d8a6cf10cfc605822c9559cc889013641e5bd3082b5ce99166396cb98eb5debe0cc0605cec63ff41ad651aa00d4fca04ca8a8```.
 
-    Confirm that the download has the same checksum by executing the following command in the firmware.cap directory:
+    Confirm that the download has the same checksum by executing the following command in the firmware.rom directory:
 
-    `sha512sum -b firmware.cap`
+    `sha512sum -b firmware.rom`
 
 16. Copy over the firmware file to the flash drive.
 
@@ -41,7 +41,7 @@
 5. Press `F8` to start the QFlash utility.
 6. Select `Update BIOS from Drive`.
 7. Select the flash drive with the firmware on it.
-8. Select the `firmware.cap` file.
+8. Select the `firmware.rom` file.
 9. The QFlash will take a few seconds to verify the file. 
 10. The BIOS version, BIOS date, as well as checksum for the new firmware will then be displayed. The option between `Normal Update` and `Quick Update` will be available. Select `Normal Update`. 
 11. The BIOS will then begin updating. This may take upwards of 5 minutes to complete. 
