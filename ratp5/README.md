@@ -46,7 +46,7 @@
 12. When the update completes, the system will automatically reboot for the changes to take affect. Once the system begins the reboot process, remove the flash drive. 
 13. The system should now be up to date.
 
-14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `F22b Z5`, with a release date of `01/03/2018`. 
+14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `F22b Z5`, with a release date of `01/19/2018`. 
 
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, you may be brought to a yellow and black command line prompt titled: "EFI Shell version x". If this is the case, press the `ctrl`-`alt`-`del` keys all at once and your system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.
