@@ -2,6 +2,8 @@
   "versions": [
     {
       "bios": "F5 Z5",
+      "bios_me": false,
+      "bios_set": false,
       "me": "11.8.50.3399",
       "me_hap": false,
       "me_cr": false,
@@ -9,6 +11,8 @@
     },
     {
       "bios": "F4 Z5",
+      "bios_me": false,
+      "bios_set": false,
       "me": "11.7.4.3314",
       "me_hap": false,
       "me_cr": false,

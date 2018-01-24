@@ -2,6 +2,8 @@
   "versions": [
     {
       "bios": "F6",
+      "bios_me": false,
+      "bios_set": false,
       "me": "11.6.20.1221",
       "me_hap": false,
       "me_cr": false,
