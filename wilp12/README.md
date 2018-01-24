@@ -24,7 +24,12 @@
 13. Mount the drive by selecting the "Play" button.
 14. With the drive is ready, download the `firmware.rom` file from here: [wilp12 firmware](https://github.com/system76/firmware-desktop/blob/master/wilp12/firmware.rom). Click `Download` to begin the download.
 
-15. The sha512sum checksum for this download is `redacted`. Confirm that the download has the same checksum by executing the following command in the firmware.rom directory. `sha512sum -b firmware.rom`
+15. The sha512sum checksum for this download is 
+```d9e7b59727de9699aa8149e9839c08dd3bf505143442c059edb1cbbdf3eedc3c7c342529825b773a5c8087ce40cceae9b67dfd27893caa37a919fb4bf3d89a95```. 
+
+    Confirm that the download has the same checksum by executing the following command in the firmware.rom directory:
+
+     `sha512sum -b firmware.rom`
 
 16. Copy over the firmware file to the flash drive.
 
