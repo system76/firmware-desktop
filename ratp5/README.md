@@ -4,32 +4,32 @@
 
 ### Downloading and preparing new firmware
 1. Updating firmware requires a flash drive at least 2 GB in size.
-2. The firmware.rom file needs placed on a thumbdrive with MBR FAT32 formatting.
+2. The firmware.rom file needs to be placed on a thumbdrive with MBR FAT32 formatting.
 3. Feel free to skip ahead to the later sections if this is familiar ground.
 4. To properly format a flash drive, follow the next instructions:
 
 ### Preparing Flash Drive
 1. Plug in the flash drive.
 2. Open the "Disks" program.
-4. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the flash drive.
-5. Select the menu button in the top right corner. Select "Format Disk".
-6. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
-7. Confirm the execution by selecting "Format".
-8. Once this process is complete, the volume should be listed as "Free Space".
-9. Select the "+" button to create a partition for this drive.
-10. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
-11. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
-13. Mount the drive by selecting the "Play" button.
-14. With the drive is ready, download the `firmware.rom` file from here: [ratp5 firmware](https://github.com/system76/firmware-desktop/blob/master/ratp5/firmware.rom). Click `Download` to begin the download.
+3. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the flash drive.
+4. Select the menu button in the top right corner. Select "Format Disk".
+5. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
+6. Confirm the execution by selecting "Format".
+7. Once this process is complete, the volume should be listed as "Free Space".
+8. Select the "+" button to create a partition for this drive.
+9. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
+10. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
+11. Mount the drive by selecting the "Play" button.
+12. When the drive is ready, download the `firmware.rom` file from here: [ratp5 firmware](https://github.com/system76/firmware-desktop/blob/master/ratp5/firmware.rom). Click `Download` to begin the download.
 
-15. The sha512sum checksum for this download is 
+13. The sha512sum checksum for this download is:
 ```0f293a353725ba1578a6d989289d8a6cf10cfc605822c9559cc889013641e5bd3082b5ce99166396cb98eb5debe0cc0605cec63ff41ad651aa00d4fca04ca8a8```.
 
     Confirm that the download has the same checksum by executing the following command in the firmware.rom directory:
 
     `sha512sum -b firmware.rom`
 
-16. Copy over the firmware file to the flash drive.
+14. Copy over the firmware file to the flash drive.
 
 ### Writing new firmware
 1. After saving and backing up the machine, make sure the flash drive with the updated firmware is plugged into the computer.

@@ -4,7 +4,7 @@
 
 ### Downloading and preparing new firmware
 1. Updating firmware requires a flash drive at least 2 GB in size.
-2. The firmware.bio file needs placed on a thumbdrive with a MBR FAT32 formatting
+2. The firmware.bio file needs to be placed on a thumbdrive with MBR FAT32 formatting.
 3. Feel free to skip ahead to the later sections if this is familiar ground.
 4. To properly format a flash drive, follow the next instructions:
 
@@ -20,9 +20,9 @@
 9. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
 10. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
 11. Mount the drive by selecting the "Play" button.
-12. Now that the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download.
+12. When the drive is ready, download the `firmware.bio` file from here: [meer2 firmware](https://github.com/system76/firmware-desktop/blob/master/meer2/firmware.bio). Click `Download` to begin the download.
 
-13. The sha512sum checksum for this download is 
+13. The sha512sum checksum for this download is:
 ```d064d89ca6f8aef3a10d10fcdf538d52d200b7e42551b0b8edc1a0ee46f142d1438ecce449ff0edbec880c8afcf50720a78a64aa34bea101485cbaf3bf09a000```. 
 
     Confirm that the download has the same checksum by executing the following command in the firmware.bio directory:

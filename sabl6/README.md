@@ -4,7 +4,7 @@
 
 ### Downloading and preparing new firmware
 1. Updating firmware requires a flash drive at least 2 GB in size.
-2. The firmware.cap file needs placed on a thumbdrive with a MBR FAT32 formatting
+2. The firmware.cap file needs to be placed on a thumbdrive with MBR FAT32 formatting.
 3. Feel free to skip ahead to the later sections if this is familiar ground.
 4. To properly format a flash drive, follow the next instructions:
 
@@ -22,7 +22,7 @@
 11. Mount the drive by selecting the "Play" button.
 12. When the drive is ready, download the `firmware.cap` file from here: [sabl6 firmware](https://github.com/system76/firmware-desktop/blob/master/sabl6/firmware.cap). Click `Download` to begin the download.
 
-13. The sha512sum checksum for this download is 
+13. The sha512sum checksum for this download is:
 ```d0c3782f1ef97ab7eccc33bbe36fb54f9e3249262b8fc74d3bdab894154f42ae30117a22537cf671f4cc593d8514cb8608eabb94df7fd9bb82ce403d7242b439```. 
 
     Confirm that the download has the same checksum by executing the following command in the firmware.cap directory:
