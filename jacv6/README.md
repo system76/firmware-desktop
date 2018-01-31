@@ -11,8 +11,8 @@
    2.  Copy [zip file](https://github.com/system76/firmware-desktop/blob/master/jacv6/S1200SPO_BIOS_R03010026_.zip) to a HD or
    USB Flash Drive
    3.  Map the respective storage device in system with the command
-          /Shell> map -r/
+          `Shell> map -r`
    4.  Change the Shell to mapped device file system
           Example: Shell> fs0: (or fs1:)
-   5.  Run /Startup.nsh/ on the prompt
+   5.  Run `Startup.nsh` on the prompt
    6.  Reboot system after the update is completed.
