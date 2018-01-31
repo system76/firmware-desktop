@@ -7,9 +7,10 @@
 
 ### Intel Instructions for updating BIOS
    
-   1.  Boot the system to EFI Shell
-   2.  Copy [zip file](https://github.com/system76/firmware-desktop/blob/master/jacv6/S1200SPO_BIOS_R03010026_.zip) to a HD or
-   USB Flash Drive
+   1.  Extract the [zip file](https://github.com/system76/firmware-desktop/blob/master/jacv6/S1200SPO_BIOS_R03010026_.zip) to a 
+   HD or USB Flash Drive
+   **It is important that the drive is partitioned with FAT32**
+   2.  Boot the system to EFI Shell
    3.  Map the respective storage device in system with the command
           `Shell> map -r`
    4.  Change the Shell to mapped device file system
