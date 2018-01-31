@@ -5,8 +5,10 @@
 1. Backup machine's data. There is a small possibility that updating firmware can cause data loss.
 
 ### Intel Instructions for writing new firmware
+
 User can update BIOS flash image via any of the follow methods...
-*A. UEFI iFlash32* 
+
+**A. UEFI iFlash32** 
    1.  Boot the system to EFI Shell
    2.  Copy IFlash32.efi and BIOS .CAP file to a HD or USB Flash Drive
    3.  Map the respective storage device in system with the command
@@ -17,9 +19,9 @@ User can update BIOS flash image via any of the follow methods...
        fs0:\> IFlash32 [File Name] /u /ni
    6.  Reboot system after the update is completed.
 
-*B. Use flash programmer to burn the new BIOS ROM image (16MB) into the flash chip.*
+**B. Use flash programmer to burn the new BIOS ROM image (16MB) into the flash chip.**
 
-*C. Backup BIOS update instructions*
+**C. Backup BIOS update instructions**
    1.  Boot the system to EFI Shell
    2.  Copy IFlash32.efi and BIOS .CAP file to a HD or USB Flash Drive
    3.  Map the respective storage device in system with the command
