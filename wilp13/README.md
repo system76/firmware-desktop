@@ -22,9 +22,14 @@
 9. The default settings should be sufficient. A name for the partition can be added to help identify the use of the drive.
 10. Select "Create". The drive should be labeled with the name(if any) as well as the size and the parition type, FAT.
 11. Mount the drive by selecting the "Play" button.
-12. Now that the drive is ready, download the `firmware.rom` file from here: [wilp13 firmware](https://github.com/system76/firmware-desktop/blob/master/wilp12/firmware.rom). Click `Download` to begin the download of the firmware.
+12. When the drive is ready, download the `firmware.rom` file from here: [wilp13 firmware](https://github.com/system76/firmware-desktop/blob/master/wilp13/firmware.rom). Click `Download` to begin the download of the firmware.
 
-13. The sha512sum checksum for this download is `*redacted*`. Confirm that the download has the same checksum by executing the following command in the firmware.rom directory. `sha512sum -b firmware.rom`
+13. The sha512sum checksum for this download is:
+```4d245898e078fad1f6e8813373302fba7c09d88a02bfadb336080d9f6aa6c64165587fca5f2d5e40777edf9acf35eaaef55ac596e427de9d13d2bc4adfe19020```.
+
+    Confirm that the download has the same checksum by executing the following command in the firmware.rom directory:
+
+     `sha512sum -b firmware.rom`
 
 15. Copy over the firmware file to the flash drive.
 
@@ -36,34 +41,34 @@
 
 **NOTE: Some information in the screenshots below may differ from that of your actual machine.**
 
-![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/3.png)
+![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/3.png)
 
 5. Select `Update BIOS`.
 6. The next screen is to select the file to be flashed. 
 
-![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/4.png)
+![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/4.png)
 
 7. If the `firmware.rom` file is listed on the righ pannel, use the arrow keys to select the file. Press `Enter` to confirm this selection.
 
-![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/7.png)
+![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/7.png)
 
   - Towards the bottom left of the center pannel, there will be a name of a device (perhaps an "Unknown Device") as well as a red triangle. Selecting the triangle will provide a dropdown menu of other devices connected to the computer. If the flashdrive with the firmware file is not the currently selected drive, select the proper drive. Use the arrow keys to browse the flash drive for the `firmware.rom` file. When the file appears in the right pannel, Press `Enter` to select the file.
 
-![Selecting correct flashdrive](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/5.png)
+![Selecting correct flashdrive](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/5.png)
 
 8. The next page will ask between a "FAST" or "INTACT" install. In order to update the ME, select the "INTACT" option.
 
-![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/8.png)
+![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/8.png)
 
 9. The firmware is now being updated. This should not take more than 5 minutes. You will see a progress bar showing the progress of writing the new firmware.
 
-![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/9.png)
+![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/9.png)
 
 10. Once the firmware has been written, the screen will indicate that the system will reboot. When the system begins the reboot cycle, remove the flash drive. The firmware should now be up-to-date.
 
-![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow8/images/10.png)
+![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/10.png)
 
-11. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `F9b`. 
+11. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `F9b Z5`.
 
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, a yellow and black command line prompt titled: "EFI Shell version x" may appear. If this is the case, press the `ctrl`-`alt`-`del` keys all at once and the system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.
