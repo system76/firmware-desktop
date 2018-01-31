@@ -3,7 +3,7 @@
 # To update firmware:
 
 1. Backup machine's data. There is a small possibility that updating firmware can cause data loss.
-2. Ensure AC stability. Ac failure during update can cause damage to your system and be unrecoverable.
+2. Ensure AC stability. AC failure during update can cause damage to your system and be unrecoverable.
 
 ### Intel Instructions for updating BIOS
    
