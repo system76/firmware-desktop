@@ -4,7 +4,7 @@
 
 ### Downloading and preparing new firmware
 1. Updating firmware requires a flash drive at least 2 GB in size.
-2. The firmware.cap file needs placed on a thumbdrive with a MBR FAT32 formatting
+2. The firmware.rom file needs placed on a thumbdrive with a MBR FAT32 formatting
 3. Feel free to skip ahead to the later sections if this is familiar ground.
 4. To properly format a flash drive, follow the next instructions:
 
@@ -29,7 +29,7 @@
 
      `sha512sum -b firmware.rom`
 
-15. Copy over the firmware file to the flash drive.
+14. Copy over the firmware file to the flash drive.
 
 ### Writing new firmware
 1. After saving and backing up the machine, make sure the flash drive with the updated firmware is plugged into the computer.
