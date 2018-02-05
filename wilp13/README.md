@@ -11,7 +11,7 @@
 ### Preparing Flash Drive
 1. Plug in the flash drive.
 2. Open the "Disks" program.
-3. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the flash drive.
+3. The left panel of the "Disks" application shows all of the drives connected to your machine. Select the flash drive.
 4. Select the menu button in the top right corner. Select "Format Disk".
 5. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
 6. Confirm the execution by selecting "Format".
@@ -46,11 +46,11 @@
 
 ![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/4.png)
 
-7. If the `firmware.rom` file is listed on the righ pannel, use the arrow keys to select the file. Press `Enter` to confirm this selection.
+7. If the `firmware.rom` file is listed on the righ panel, use the arrow keys to select the file. Press `Enter` to confirm this selection.
 
 ![Selecting firmware.rom](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/7.png)
 
-  - Towards the bottom left of the center pannel, there will be a name of a device (perhaps an "Unknown Device") as well as a red triangle. Selecting the triangle will provide a dropdown menu of other devices connected to the computer. If the flashdrive with the firmware file is not the currently selected drive, select the proper drive. Use the arrow keys to browse the flash drive for the `firmware.rom` file. When the file appears in the right pannel, Press `Enter` to select the file.
+  - Towards the bottom left of the center panel, there will be a name of a device (perhaps an "Unknown Device") as well as a red triangle. Selecting the triangle will provide a dropdown menu of other devices connected to the computer. If the flashdrive with the firmware file is not the currently selected drive, select the proper drive. Use the arrow keys to browse the flash drive for the `firmware.rom` file. When the file appears in the right panel, Press `Enter` to select the file.
 
 ![Selecting correct flashdrive](https://raw.githubusercontent.com/system76/firmware-desktop/master/wilp13/images/5.png)
 
