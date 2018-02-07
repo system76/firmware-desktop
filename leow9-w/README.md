@@ -13,7 +13,7 @@
 ### Preparing Flash Drive
 1. Plug in your flash drive.
 2. Open the "Disks" program.
-4. The left pannel of the "Disks" application shows all of the drives connected to your machine. Select the drive that represents your drive.
+4. The left panel of the "Disks" application shows all of the drives connected to your machine. Select the drive that represents your drive.
 5. Select the menu button in the top right corner. Select "Format Disk".
 6. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
 7. Confirm this execution by selecting "Format".
@@ -46,7 +46,7 @@
 ![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow9-w/images/3.png)
 
 7. Now you need to find and select the `firmware.rom` file that is on your flashdrive.
-8. Towards the bottom left of the center pannel, there will be a name of a device (perhaps an "Unknown Device") as well as a red triangle. 
+8. Towards the bottom left of the center panel, there will be a name of a device (perhaps an "Unknown Device") as well as a red triangle. 
 
 ![Initial File Selection](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow9-w/images/4.png)
 
@@ -54,7 +54,7 @@
 
 ![Selecting correct flashdrive](https://raw.githubusercontent.com/system76/firmware-desktop/master/leow9-w/images/5.png)
 
-10. With the correct drive now selected, any folders would show up in the left pannel, files in the right pannel. Seeing that the firmware.rom file is the only file on the flashdrive, it shows immediately in the right pannel.
+10. With the correct drive now selected, any folders would show up in the left panel, files in the right panel. Seeing that the firmware.rom file is the only file on the flashdrive, it shows immediately in the right panel.
 
 11. Double-Click on the `firmware.rom` file.
 

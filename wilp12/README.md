@@ -11,7 +11,7 @@
 ### Preparing Flash Drive
 1. Plug in the flash drive.
 2. Open the "Disks" program.
-3. The left pannel of the "Disks" application shows all of the drives connected to the machine. Select the flash drive.
+3. The left panel of the "Disks" application shows all of the drives connected to the machine. Select the flash drive.
 4. Select the menu button in the top right corner. Select "Format Disk".
 5. A pop-up will appear asking how the drive should be formatted. The defaults are desired so select "Format...".
 6. Confirm the execution by selecting "Format".
