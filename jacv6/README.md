@@ -1,5 +1,3 @@
-# This update is not yet available. You will receive an email when your model's firmware is ready to update.
-
 # To update firmware:
 
 1. Backup machine's data. There is a small possibility that updating firmware can cause data loss.
@@ -12,9 +10,9 @@
          **_It is important that the drive is partitioned with FAT32_**
   
    2.  Boot the system to EFI Shell
-   3.  Map the respective storage device in system with the command
-          `Shell> map -r`
-   4.  Change the Shell to mapped device file system
+   3.  Change the Shell to mapped device file system
           Example: Shell> fs0: (or fs1:)
-   5.  Run `Startup.nsh` on the prompt
-   6.  Reboot system after the update is completed.
+   4.  Run `Startup.nsh` on the prompt.
+   5.  Follow prompts to begin the update.
+   6.  When asked to update the FRU or SDR, select `5` to `Exit FRU/SDR update`. 
+   5.  Reboot system after the update is completed.
