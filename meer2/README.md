@@ -36,7 +36,7 @@
 1. After saving and backing up all of your work, make sure the flash drive with the updated firmware is plugged into your computer.
 2. Power off the machine.
 3. Power back on the machine. As the machine is powering back up, hold down the 'F7' key.
-4. After seeinsg the System76 logo, you should be brought to a Blue and grey screen with the title containing the words "Intel NUC Board". This should look somewhat similar to the following screenshot.
+4. After seeing the System76 logo, you should be brought to a Blue and grey screen with the title containing the words "Intel NUC Board". This should look somewhat similar to the following screenshot.
 
 ![BIOS Update page](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer2/images/1.jpg)
 
