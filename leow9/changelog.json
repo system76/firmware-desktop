@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "bios": "F5c Z5",
+      "bios_me": false,
+      "bios_set": false,
+      "me": "11.11.50.1436",
+      "me_hap": false,
+      "me_cr": false,
+      "description": "Update ME and microcode"
+    },
+    {
       "bios": "F3 Z5",
       "bios_me": false,
       "bios_set": false,
