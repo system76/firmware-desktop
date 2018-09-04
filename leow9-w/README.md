@@ -42,6 +42,7 @@
 11. Type in the command: `fpt -f firmware.rom`. Press `Enter`.
 12. When the upgrade is complete (The `Shell> _` line is the last line on the screen), type `reset -s` and press `Enter`. 
 13. Unplug the power cord from the power supply for 10 seconds, afterwards plug the power cord back in.
-14. Move the jumper back to 1-2 position (normal position). Power the machine back on. The machine may restart a few times. To confirm the update was successful, press the `Delete` key to enter the BIOS on boot.
+14. Move the jumper back to 1-2 position (normal position). Power the machine back on. The machine may restart a few times. 
+15. To confirm the update was successful, press the `Delete` key to enter the BIOS on boot. The BIOS should be version `F8a` and the M.E. should be `11.11.55.1509`.
 
 **NOTE: Some information in the screenshots below may differ from that of your actual machine.**
