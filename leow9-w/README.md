@@ -17,7 +17,7 @@
 7. Confirm this execution by selecting "Format".
 8. Once this process is complete, you should see the volume listed as "Free Space".
 9. Select the "+" button to create a partition for this drive.
-10. Once again the default settings here should be sufficient. However, you do need to add a name for the flash drive. In this example I named the drive "firmare" so I know what is on the drive when I plug it in. You can name the drive whatever you would like.
+10. Once again the default settings here should be sufficient. However, you do need to add a name for the flash drive. In this example I named the drive "firmware" so I know what is on the drive when I plug it in. You can name the drive whatever you would like.
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
@@ -28,9 +28,9 @@
 ### Writing new firmware
 1. After saving and backing up all work, make sure the flash drive with the updated firmware is plugged into the computer.
 2. Power off the machine. Unplug the machine.
-3. Take the side glass pannel off, so that access to the motherboard is available.
-4. At the bottom of the board, there is a jumper that needs to be moved from covering 1-2 to 2-3. See the below image where the pins proceed 1,2,3.
-![ME Update Jumper]()
+3. Take the side glass panel off, so that access to the motherboard is available.
+4. At the bottom of the board, there is a jumper that needs to be moved from covering 1-2 to 2-3. See the below image where the pins proceed numerically 1,2,3.
+![ME Update Jumper](https://raw.githubusercontent.com/system76/firmware-desktop/leow9-w_fix/leow9-w/images/1.png)
 
 4. Power back on the machine. As the machine is powering back up, hold down the 'F12' key.
 5. After the System76 logo appears, a list of bootable devices will be displayed.
