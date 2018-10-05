@@ -1,4 +1,4 @@
-# To update your firmware:
+# To update firmware:
 
 1. Backup all data. There is a small possibility that updating firmware can cause data loss.
 
@@ -23,7 +23,7 @@
 12. When the drive is ready, download the `firmware.bio` file from here: [meer3 firmware](https://github.com/system76/firmware-desktop/blob/master/meer3/firmware.bio). Click `Download` to begin the download of the firmware.
 
 13. The sha512sum checksum for this download is:
-```242f5368165d5bcbc8df68cceabea303f0d73539b16da88ad777c1d30b816d4b4e90737c1a30decb85833f5ec59b9fd0d1774ed06b2f1d21c31295ea887cf362```.
+```e2cea03c1902af6f11eb0b14ea41daf98f85697f5b8d6627d2f5cccec8ac628e6e974421bc7049bd51b54bc27027fb1a1078c395cd48e8b33fb6fa72654e269e```.
 
     Confirm that the download has the same checksum by executing the following command in the firmware.bio directory:
 
@@ -33,7 +33,7 @@
 
 
 ### Writing new firmware
-1. After saving and backing up all of your work, make sure the flash drive with the updated firmware is plugged into your computer.
+1. After saving and backing up all work, make sure the flash drive with the updated firmware is plugged into the computer.
 2. Power off the machine.
 3. Power back on the machine. As the machine is powering back up, hold down the 'F7' key.
 4. After seeing the System76 logo, you should be brought to a Blue and grey screen with the title containing the words "Intel NUC Board". This should look somewhat similar to the following screenshot.
@@ -46,9 +46,10 @@
 6. Go ahead and select "Enter" when your flash drive is selected in white. Use the arrow keys to go up and down to change selections.
 7. Next, you will be presented with whatever folders and files are on that flashdrive.
 8. Select the `firmware.bio` file and hit "Enter" on your keyboard.
-9. A blue pop-up will appear. You will then be asked "Are you sure you wish to udate the BIOS with "firmware.bio?". Hit "Enter" once again to confirm.
+9. A blue pop-up will appear. You will then be asked "Are you sure you wish to update the BIOS with "firmware.bio?". Hit "Enter" once again to confirm.
 10. Your machine will now reboot, you will see the System76 logo once again.
-11. The firmware update will now begin. This may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
+11. The firmware update will now begin. A prompt may ask to confirm this choice once again, press the appropriate number if prompted.
+12. Firmware updating may take up to 5 minutes. The following screenshot will look similar to what will appear on your screen.
 
 ![Firmware update](https://raw.githubusercontent.com/system76/firmware-desktop/master/meer3/images/2.jpg)
 
@@ -56,7 +57,7 @@
 12. Keeping an eye on the update, when the update finishes, you will see the text that "Flash update has completed successfully". Promptly unplug the flashdrive as the machine will reboot shortly.
 13. The machine should now reboot back into the operating system.
 
-14. To confirm the update was successful, check in either the BIOS or using `dmidecode` that the BIOS verison is: `BNKBL357.86A.0057.2017.1122.1550`. 
+14. To confirm the update was successful, check in either the BIOS or using `dmidecode` in the terminal that the BIOS verison is: `BNKBL357.86A.0069.2018.0920.1250`. 
 
 **Note:**
 After the firmware update completes, if the system reboots with the flashdrive still plugged in, you may be brought to a yellow and black command line prompt titled: "EFI Shell version x". If this is the case, press the `ctrl`-`alt`-`del` keys all at once and your system will restart. Promptly remove the flashdrive and your system will reboot into your operating system.
