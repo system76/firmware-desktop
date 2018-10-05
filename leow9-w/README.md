@@ -21,7 +21,7 @@
 11. Select "Create" when you are done supplying a name for the drive.
 12. The drive should now be labeled with the name you gave the drive followed by the size and the letters FAT.
 13. Now mount the drive by selecting the "Play" button.
-14. Now that the drive is ready, download the `firmware.rom` and `fpt.efi` files from here: [leow9-w firmware](firmware.rom), [leow9-w fpt.efi](fpt.efi).
+14. Now that the drive is ready, download the `firmware.rom` and `fpt.efi` files from here: [leow9-w firmware](https://github.com/system76/firmware-desktop/blob/master/leow9-w/firmware.rom), [leow9-w fpt.efi](https://github.com/system76/firmware-desktop/blob/master/leow9-w/fpt.efi).
 15. Copy over the files to the flash drive.
 
  
@@ -29,13 +29,16 @@
 1. After saving and backing up all work, make sure the flash drive with the updated firmware is plugged into the computer.
 2. Power off the machine. Unplug the machine.
 3. Take the side glass panel off, so that access to the motherboard is available.
+
+ **NOTE**: Remove the panel by unscrewing the four thumbscrews at the four corners of the glass pannel. Make sure to hold the glass pannel in place when the screws are removed as the pannel may fall and break.
+
 4. At the bottom of the board, there is a jumper that needs to be moved from covering 1-2 to 2-3. See the below image where the pins proceed numerically 1,2,3.
 ![ME Update Jumper](https://raw.githubusercontent.com/system76/firmware-desktop/leow9-w_fix/leow9-w/images/1.png)
 
 4. Power back on the machine. As the machine is powering back up, hold down the 'F12' key.
 5. After the System76 logo appears, a list of bootable devices will be displayed.
 6. Select `UEFI: Built-in EFI Shell`.
-7. A command line will appear with a list of devices connected to the machine.
+7. A command line will appear with a list of devices connected to the machine (if the list needs to be displayed again, run the command `map`).
 8. Find the usb device with the firmware on it. It should be the only device labeled "Removable". The name should be `fs0:`, `fs1:` or something similar.
 9. Type in the appropriate drive from above (ex. `fs0:`) and press `Enter`.
 10. Use the `ls` command to confirm the `firmware.rom` and `fpt.efi` files are present.
@@ -45,4 +48,4 @@
 14. Move the jumper back to 1-2 position (normal position). Power the machine back on. The machine may restart a few times. 
 15. To confirm the update was successful, press the `Delete` key to enter the BIOS on boot. The BIOS should be version `F8a` and the M.E. should be `11.11.55.1509`.
 
-**NOTE: Some information in the screenshots below may differ from that of your actual machine.**
+**NOTE: Some information in the screenshots may differ from that of your actual machine.**
