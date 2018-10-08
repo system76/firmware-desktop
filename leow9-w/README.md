@@ -30,7 +30,7 @@
 2. Power off the machine. Unplug the machine.
 3. Take the side glass panel off, so that access to the motherboard is available.
 
- **NOTE**: Remove the panel by unscrewing the four thumbscrews at the four corners of the glass pannel. Make sure to hold the glass pannel in place when the screws are removed as the pannel may fall and break.
+ **NOTE**: Remove the panel by unscrewing the four thumbscrews at the four corners of the glass panel. Make sure to hold the glass panel in place when the screws are removed as the panel may fall and break.
 
 4. At the bottom of the board, there is a jumper that needs to be moved from covering 1-2 to 2-3. See the below image where the pins proceed numerically 1,2,3.
 ![ME Update Jumper](https://raw.githubusercontent.com/system76/firmware-desktop/leow9-w_fix/leow9-w/images/1.png)
